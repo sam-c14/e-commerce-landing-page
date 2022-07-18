@@ -1,0 +1,192 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ComfortLeather</title>
+     <link rel="stylesheet" href="./css/landingpage.css">
+     <link rel="stylesheet" href="./css/all.min.css">
+ </head>
+ <body>
+     <section class="landing-sect">
+         <div class="navbar">
+         <div class="title">
+             <h3>Comfort<br> <em>Leather</em> </h3>
+            </div>
+             <nav>
+                 <ul id="nav-list">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Comfort Sleeper</a></li>
+                     <li><a href="#">All Products</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                 </ul>
+             </nav>
+             <div class="cart">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 <span class="count">0</span>
+             </div>
+             <div class="menu-icon">
+                 <i class="fa-solid fa-bars" id="menu-icon"></i>
+             </div>
+            </div>
+        <div class="container">
+         <div class="row">
+             <div class="col-2">
+            <h1>Comfort Sleeper</h1>
+            <p>The Ultimate Experience without Springs or Bars</p>
+            <a href="#" class="btn">Go Explore &#8594;</a>
+            </div>
+         </div>
+     </div>
+    </section>
+
+<!-- Products -->
+<div class="logos">
+    <div class="col-3" id="first">
+        <h2>comfort at work</h2>
+        <p>Experience Ultimate comfort</p>
+        <a href="#">browse styles</a>
+    </div>
+    <div class="col-3" id="second">
+        <h2>custom design</h2>
+        <p>Make your own choices</p>
+        <a href="#">browse styles</a>
+    </div>
+
+</div>
+
+  <!-- Description -->
+  <div class="row-2">
+      <div class="logos">
+          <div class="col-4 health">
+              <img src="./css/health.jpg">
+          </div>
+          <div class="col-4">
+            <img src="./css/naija.jpeg">
+          </div>
+      </div>
+      <h1>innovation, style and affordable</h1>
+      <p>Innovation is at the center of every Comfort Leather Product as we do our best to fufill the needs of our customers while having a unique dsign to every of our product. We also have custom furnitures that you can pick parts which you would like to redesign,You can sit back and rest assured that we've got you covered.</p>
+      <button>learn more</button>
+  </div>
+  
+<!-- sofas and sections -->
+<div class="container-2">
+    <div class="col-5" id="sectionals">
+        <h2>sofas & <br> sections</h2>
+        <p>all sofas</p>
+        <a href="#">all sections</a>
+    </div>
+    <div class="col-5" id="section">
+
+    </div>
+</div>
+<div class="desc">
+    <h4>Custom modern sofas and sections</h4>
+    <p>Our sofa and section styles range from Mid-Century to modern,classic silhouettes.Chosse your fabric,leather and style,lets custom build the perfect piece for your living room. </p>
+</div>
+
+
+<!-- explore fabrcs -->
+<div class="fabrics">
+    <div class="text">
+            <h2>check out <br>
+                our <br>
+                fabrics &<br>
+                leathers
+            </h2>
+        <a href="#">learn more</a>
+    </div>
+</div>
+
+<!-- retails -->
+<div class="container-2">
+    <div class="small-container">
+        <div class="col-6" id="retails">
+        </div>
+        <div class="retail-description">
+            <a href="#">find a retailer</a>
+    </div>
+</div>
+<div class="smaller-container">
+    <div class="col-6" id="leather">
+    </div>
+    <div class="retail-description">
+        <h3>Find a Comfort Leather Retailer near you</h3>
+        <p>We invite you to shop our robust collections at one of over 800 retailer partners across the Continent</p>
+    </div>
+</div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="logos">
+            <div class="footer-col-1">
+            <h1>Comfort <br> <em>Leather</em></h1>
+            <p>21 TopSide Hills View <br>
+            Lagos, Nigeria</p>
+            <p>Call us at 00000000</p>
+        </div>
+        <div class="footer-col-2">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-col-3">
+            <h4>Resources</h4>
+            <ul>
+                <li id="list"><a href="#">FAQ</a></li>
+                <li id="list"><a href="#">Dispatch Request</a></li>
+                <li id="list"><a href="#">Register Your Warranty</a></li>
+                <li id="list"><a href="#">Innovation Center</a></li>
+            </ul>
+        </div>
+        <div class="footer-col-4">
+            <label for="email">JOIN OUR MAILING LIST</label>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Email address here...                                  &#8594;">
+            </form>
+            <p>FOLLOW US
+                <br>
+                <br>
+                <br>
+                @ComfortLeather
+                <div class="social-media">
+                    <i class="fa fa-brands fa-facebook"><a href="#"></a></i>
+                    <i class="fa-brands fa-instagram"><a href="#"></a></i>
+                    <i class="fa-brands fa-twitter"><a href="#"></a></i>
+            </div>
+            </p>
+        </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2022 Comfort Leather.</p>
+    </div>
+</div>
+
+
+
+<script>
+    let navList=document.getElementById("nav-list")
+    let menuIcon=document.getElementById("menu-icon")
+
+    navList.style.maxHeight="0px"
+
+    menuIcon.addEventListener("click",function(){
+        if(navList.style.maxHeight == "0px"){
+            navList.style.maxHeight = "300px"
+        }
+        else{
+            navList.style.maxHeight = "0px"
+        }
+    })
+</script>
+</body>
+ </html>
